@@ -43,8 +43,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build CreatIS
         run: |
-          mkdir -p ./_site/creativeIntegrationSuite/
-          cp -r ./src/* ./_site/creativeIntegrationSuite/
+          cp -r ./src/* ./_site/
       # Deploy
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
