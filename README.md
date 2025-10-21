@@ -37,7 +37,7 @@ Prazo para entrega final da versão 1 (html+css básico): 27/10/2025, 23h59.
 
 Há muito trabalho manual para coletar as solicitações dos clientes nessas empresas, passar para os designers e manter o histórico disso, devolver para o cliente aprovar ou não, agendar ou publicar em redes sociais, e mais.
 Além de falta de padronização nas artes, o gerenciamento do armazenamento em nuvem em alguns casos desrespeitando a LGPD.
-Dentre as funcionalidades do sistema: receber e automatizar grande parte desses processos via Whatsapp, com integração com o software de gestão Asana, interação com o Photoshop para correção de error simples (incremental), API’s de redes sociais, armazenamento em nuvem, etc.
+Dentre as funcionalidades do sistema: receber e automatizar grande parte desses processos via Whatsapp, com integração com o software de gestão Asana, interação com o Photoshop para correção de erros simples (incremental), API’s de redes sociais, armazenamento em nuvem, etc.
 
 ## Justificativa:
 
