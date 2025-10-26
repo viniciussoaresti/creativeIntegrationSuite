@@ -110,6 +110,7 @@ Trazendo então a completude da primeira versão do projeto.
 
 4. Também foram usados:
    - Fontes Roboto e Roboto flex, do Google Fonts;
-   - Ícones do Flaticon, Flatart_icons, Boostrap icons e Freepik.
+   - Ícones do Flaticon, Flatart_icons, Boostrap icons e Freepik;
+   - Marcas referentes às integrações como Whatsapp, Meta, Photoshop, etc.
 
 Total crédito aos criadores e detentores dos direitos autorais.
