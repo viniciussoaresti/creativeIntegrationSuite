@@ -12,7 +12,7 @@
       <img id="creatis-logo" src="img/creatis/logo.png" alt="Logo do Creative Integration Suite" />
     </a>
     <nav>
-      <a href="#">Preços e Planos</a>
+      <a href="precos_planos.html">Preços e Planos</a>
       <a href="cadastro.html">Cadastro</a>
       <div id="login-button">
         <a href="login.html">Login</a>
@@ -52,7 +52,7 @@
     </div>
   </main>
 
-  <footer class="login-footer">
+  <footer class="login-footer" style=" height: 100px;">
     <div class="footer-content">
       <p>Creative Integration Suite e CreatIS sobre licença MIT. Idealizado por Vini Soares e Bia Moura.
       <p class="contact">Contato ou Suporte: <a href="mailto:viniciussoaresti@gmail.com">viniciussoaresti@gmail.com</a></p>
@@ -67,7 +67,6 @@
     toggle.addEventListener("click", () => {
       const type = password.getAttribute("type") === "password" ? "text" : "password";
       password.setAttribute("type", type);
-      toggle.textContent = type === "password" ? "👁️" : "🙈";
     });
   </script>
 </body>

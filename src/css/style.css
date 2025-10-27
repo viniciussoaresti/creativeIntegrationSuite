@@ -458,6 +458,49 @@ footer {
   text-decoration: none;
 }
 
+/* --------------- */
+
+.form-row--basic {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 6px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.form-row--basic label {
+  width: 100px;
+  font-weight: 600;
+  color: white;
+  flex-shrink: 0;
+}
+
+.form-row--basic input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #45e4db;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  width: 100%;
+}
+
+/* --------------- */
+
+select {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  width: 100%;
+}
+
+/* --------------- */
+
 .form-row {
   display: flex;
   align-items: center;
@@ -488,6 +531,9 @@ footer {
 .form-row.email input {
   flex: 2; 
 }
+
+/* --------------- */
+
 /* PREÇOS E PLANOS */
 .precos-main {
   flex: 1;
@@ -556,10 +602,6 @@ footer {
   transform: translateY(-10px);
 }
 
-/* Removemos o header colorido, não existe na imagem */
-.plano-header {
-  display: none;
-}
 
 /* Wrapper para o conteúdo crescer e empurrar o botão */
 .plano-card-content {
