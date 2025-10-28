@@ -1,0 +1,160 @@
+.cadastro-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/creatis/signup.png") center/cover no-repeat;
+  position: relative;
+}
+
+.cadastro-container {
+  background: linear-gradient(180deg, #6a1b9a 0%, #4a0072 100%);
+  border-radius: 20px;
+  padding: 40px 60px;
+  color: #fff;
+  width: 480px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cadastro-container form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.cadastro-container label {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.cadastro-container input[type="text"],
+.cadastro-container input[type="email"],
+.cadastro-container input[type="tel"],
+.cadastro-container input[type="date"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+}
+
+.sou-opcoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 15px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.sou-opcoes label {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between; /* garante espaçamento igual */
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+  width: 100%;
+}
+.form-actions .btn-primary,
+.form-actions .btn-secondary {
+  flex: 1; /* os dois botões terão o mesmo tamanho */
+  text-align: center;
+}
+
+.link {
+  color: #45e4db;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+.google-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: white;
+  color: #4285f4;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadastrar-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #a566be, #703a86);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.google-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: white;
+  color: #4285f4;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.google-btn:hover {
+  transform: scale(1.05);
+}
+
+.cadastrar-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #a566be, #703a86);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cadastrar-btn:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  color: #fff;
+  background-image: linear-gradient(to right, #477e7b, #45e4db 95%);
+  border-top-right-radius: 80px;
+}

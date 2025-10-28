@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img id="creatis-logo" src="img/creatis/logo.png" alt="Logo do Creative Integration Suite">
+    </a>
+    <nav>
+      <a href="pricing.html">Preços e Planos</a>
+      <a href="signup.html">Cadastro</a>
+      <div id="login-button">
+        <a href="login.html">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="cadastro-main">
+    <div class="cadastro-container">
+      <h1>Cadastro</h1>
+      <form>
+        <div class="form-row--basic">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" placeholder="Digite seu nome completo">
+        </div>
+        <div class="form-row--basic">
+          <label for="nome">CPF:</label>
+          <input type="text" id="nome" placeholder="123.456.789-10">
+        </div>
+        <div class="form-row--basic">
+          <label for="nome">Dt. Nasc.:</label>
+          <input type="date" id="nome" placeholder="123.456.789-10">
+        </div>
+        <div class="form-row--basic">
+          <label for="nome">Email:</label>
+          <input type="email" id="nome" placeholder="email@email.com">
+        </div>
+        <div class="form-row--basic">
+          <label for="nome">Celular:</label>
+          <input type="email" id="nome" placeholder="+55 (00) 00000-0000">
+        </div>  
+        <div class="form-row--basic">
+          <label for="profissao">Profissão:</label>
+          <select name="profissao" id="profissao">
+            <option value="">Escolha a profissão</option>
+            <option value="Designer"> Designer</option>
+            <option value="Videomaker"> Videomaker</option>
+            <option value="Songmaker"> Songmaker</option>
+            <option value="Gestor de Tráfego"> Gestor de Tráfego</option>
+            <option value="Gerente Geral"> Gerente Geral</option>
+            <option value="Outro"> Outro</option>
+          </select>
+        </div>
+
+        <div class="button-area">
+          <a href="login.html" class="btn-primary">Login</a>
+        </div>
+        <div class="button-area">
+          <button type="submit" class="cadastrar-btn">Cadastrar</button>
+          <button type="button" class="google-btn" aria-label="Login com Google">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px">
+              <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12 c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4 C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20 C44,22.659,43.862,21.35,43.611,20.083z"/>
+              <path fill="#FF3D00" d="M6.306,14.691l6.057,4.71c1.879-5.162,7.25-9,13.637-9 c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4 C16.318,4,9.656,8.337,6.306,14.691z"/>
+              <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-4.819 c-1.901,1.237-4.209,1.99-6.719,1.99 c-6.388,0-11.765-3.838-13.637-9l-6.057,4.71 C9.656,39.663,16.318,44,24,44z"/>
+              <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303 c-0.792,2.237-2.231,4.166-4.087,5.574l6.19,4.819 C42.022,35.219,44,30.021,44,24 C44,22.659,43.862,21.35,43.611,20.083z"/>
+            </svg>
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </main>
+
+  <footer class="login-footer" style=" height: 100px; ">
+    <div class="footer-content">
+      <p>Creative Integration Suite e CreatIS sobre licença MIT. Idealizado por Vini Soares e Bia Moura.
+      <p class="contact">Contato ou Suporte: <a href="mailto:viniciussoaresti@gmail.com">viniciussoaresti@gmail.com</a></p>
+    </div>
+  </footer>

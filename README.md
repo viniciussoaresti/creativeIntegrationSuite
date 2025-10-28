@@ -32,8 +32,8 @@ Prazo para entrega final da versão 1 (html+css básico): 27/10/2025, 23h59.
 
 ## Equipe de desenvolvimento:
 
-1. [Vinícius Soares](https://github.com/viniciussoaresti) as Vini: Desenvolvedor e Designer;
-2. [Beatriz Moura](https://github.com/beatrijz) as Bia: Desenvolvedora.
+1. [Vinícius Soares](https://github.com/viniciussoaresti) as Vini: Designer e Desenvolvedor;
+2. [Beatriz Moura](https://github.com/beatrijz) as Bia: Designer e Desenvolvedora.
 
 ## Problemática:
 
@@ -52,11 +52,11 @@ Além disso, elencar os diferenciais da solução, como o fato de ser open sourc
 
 ### Requisitos Funcionais:
 
-1. RF001: O sistema deve permitir o cadastro de usuários com diferentes níveis de permissão (administrador, editor, visualizador). Prioridade: Alta.
+TODO (nas próximas versões do desenvolvimento).
 
 ### Requisitos Não Funcionais:
 
-1. RNF001: O sistema deve ser responsivo e funcionar em diferentes dispositivos (desktop, tablet, smartphone). Prioridade: Alta.
+TODO (nas próximas versões do desenvolvimento).
 
 ### Diagrama de casos de uso:
 
@@ -70,11 +70,11 @@ Para a versão 1, temos:
 
 2. Estruturação em HTML e estilização em CSS, com respectivas autorias:
 
-   1. Home (landing page), por Bia;
-   2. Preços e Planos, por Vini;
+   1. Home, por Vini;
+   2. Preços e Planos, por Bia;
    3. Cadastro, por Bia;
    4. Login, por Bia;
-   5. Dashboard (após login), por Vini.
+   5. Dashboard, por Vini.
 
 3. Deploy via GitHub Pages, com uso do GitHub Actions para build e deploy a cada commit (Vini).
 
