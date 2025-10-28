@@ -22,7 +22,7 @@ Conceito de SaaS (Software as a Service) no eixo de CMS (Content Management Syst
 
 Um SaaS que automatiza fluxos de ideação, desenvolvimento, correção e lançamento de conteúdo em agências de marketing, possibilitando deploy on-premise, híbrido ou em cloud.
 
-Na primeira versão, que é o primeiro projeto da disciplina de Programação para Web 1 do curso, o escopo é resumido em uma versão paga do sistema, e com código privado, contando com planos free, starter e premium, e com páginas estáticas em HTML e CSS.
+Na primeira versão, que é o primeiro projeto da disciplina de Programação para Web 1 do curso, o escopo é resumido em uma versão paga do sistema, e com código privado, contando com planos free, starter e premium, e com páginas estáticas em HTML e CSS. A especificação para essa versão é encontrada [aqui](https://github.com/viniciussoaresti/adsIfpe/blob/master/semester3/webProgramming1/Projeto01.pdf).
 
 ## Versão atual:
 
