@@ -19,9 +19,19 @@
   font-size: 12px;
 }
 
+#notice {
+  text-decoration: solid underline;
+  color: white;
+  background-color: red;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+
 body {
   width: 100vw;
-  height: 292vh;
+  height: 100vh;
   background-image: linear-gradient(to bottom, #a744ce, #662581 42%);
 }
 
@@ -59,7 +69,7 @@ nav a {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-#login-button {
+.header-main-button {
   width: 165px;
   height: 56px;
   display: flex;
@@ -77,64 +87,24 @@ nav a {
   align-items: center;
 }
 
-main div {
-  height: 90vh;
+#notice-1 {
+  font-size: 22px;
 }
 
-.presentation::before {
-  content: "";
+#notice-2 {
+  font-size: 18px;
+}
+
+#notice-2 a {
+  font-family: "Roboto Flex", "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+#creatis-logo-right {
   position: absolute;
-  top: -11vh;
-  left: 0;
-  right: 0;
-  height: 101vh;
-  background: url(../img/creatis/office1.png) top center / cover no-repeat;
-  filter: blur(5px);
-  opacity: 0.8;
-  z-index: -1;
-  background-size: cover;
-}
-
-.presentation {
-  position: relative;
-}
-
-#main-quote {
-  width: 30vw;
-  height: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 10px;
-  background-image: linear-gradient(to bottom, #8e36ae, #59236d);
-  border-radius: 30px;
-}
-
-.manifesto {
-  background-color: #4c1d5d;
-}
-
-.call-to-action {
-  background-color: #310541;
-  position: relative;
-}
-
-.call-to-action::after {
-  content: "";
-  position: absolute;
-  bottom: -100px;
-  left: 0;
-  right: 0;
-  height: 100px;
-  background-color: #310541;
-  z-index: -1;
-}
-
-footer {
-  width: 100vw;
-  height: 11vh;
-  background-image: linear-gradient(to right, #477e7b, #45e4db 95%);
-  border-top-right-radius: 80px;
+  top: 50%;
+  right: 2.8vw;
+  transform: translateY(-50%) scale(1.6);
+  height: 100%;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.75));
 }

@@ -3,40 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CreatIS - Home🏠</title>
+    <title>CreatIS - Home 🏠</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <p id='disclaimer'>DISCLAIMER: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL AND AS A TECHNICAL SKILLS IMPROVEMENT PROJECT. This is NOT directly related to companies or brands mentioned on the page, neither is the creator of this page affiliated with them in any way. All credits due to the owners.</p>
+    <p id='notice'>This is an example page. If there are any inputs for personal information, do NOT insert your real personal ones.</p>
     <header>
-            <a href='#'><img id='creatis-logo' src="img/creatis/logo.png" alt="Logo do Creative Integration Suite"></a>
+            <a href='index.html'><img id='creatis-logo' src="img/creatis/logo.png" alt="Logo do Creative Integration Suite"></a>
             <nav>
-                <a href="#">Preços e Planos</a>
-                <a href="#">Cadastro</a>
-                <div id="login-button">
-                    <a href="#">Login</a>
+                <a href="pricing.html" class='element-with-drop-shadow'>Preços e Planos</a>
+                <a href="signup.html" class='element-with-drop-shadow'>Cadastro</a>
+                <div class='header-main-button element-with-drop-shadow'>
+                    <a href="login.html">Login</a>
                 </div>
             </nav>
     </header>
     <main>
-        <div class="presentation">
-            <div id="main-quote">
-                <p><q>A plataforma de CMS que mais cresce em 2025</q></p>
-                <p>Jornal do Comércio</p>
+        <div class="presentation-background"></div>
+        <div class="index-main-section presentation">
+            <div class="home-card" id='main-quote'>
+                <div id='main-quote-content'>
+                    <p class='title element-with-drop-shadow'><q>A plataforma de CMS que mais cresce em 2025</q></p>
+                    <p class='quote-source element-with-drop-shadow'>Jornal do Comércio</p>
+                </div>
+            </div>
+            <img id='presentation-logo' src="img/creatis/presentationLogo.png" alt="Logo do Creative Integration Suite">
+            <div class="home-card" id="achievements">
+                <div id='achievements-content'>    
+                    <p class='small-title element-with-drop-shadow'>+200 agências de marketing parceiras;</p>
+                    <p class='small-title element-with-drop-shadow'>+10000 de clientes diretos e indiretos por dia;</p>
+                    <p class='small-title element-with-drop-shadow'>+1 milhão de conteúdos gerenciados até agora.</p>
+                </div>
+            </div>
+            <div class="partners">
+                <p class='element-with-drop-shadow'>Empresas que acreditam no nosso trabalho:</p>
+                <div class="partners-list">
+                    <img src="img/creatis/partners/insightDigital.png" alt="Logo da parceira Insight Digital" class='element-with-drop-shadow'>
+                    <img src="img/creatis/partners/impuseCreative.png" alt="Logo da parceira Impuse Creative" class='element-with-drop-shadow'>
+                    <img src="img/creatis/partners/nexusMedia.png" alt="Logo da parceira Nexus Media" class='element-with-drop-shadow'>
+                    <img src="img/creatis/partners/pixelPulseCampaigns.png" alt="Logo da parceira Pixel Pulse Campaigns" class='element-with-drop-shadow'>
+                    <img src="img/creatis/partners/anchorStrategy.png" alt="Logo da parceira Anchor Strategy" class='element-with-drop-shadow'>
+                    <img src="img/creatis/partners/bloomAndBoostMarketing.png" alt="Logo da parceira Bloom and Boost Marketing" class='element-with-drop-shadow'>
+                </div>
             </div>
         </div>
-        <div class="manifesto">
-            <h1>hey</h1>
         </div>
-        <div class="call-to-action">
-            <h1>hey</h1>
+        <div class="index-main-section manifesto">
+            <img class='half-left-picture' src="img/pictures/designTeam.jpg" alt="Imagem exemplo de um time de design">
+            <div class='manifesto-text-container'>
+                <h1>Nosso Manifesto</h1>
+                <div id='manifesto-main-text-container'>
+                    <p>Nós acreditamos que tanto agentes freelancers como agências de marketing têm o poder de transformar marcas, negócios e pessoas.</p>
+                    <p>Acreditamos na criatividade que conecta, nas ideias que nascem de conversas e na tecnologia que torna tudo isso possível.</p>
+                    <p>Sabemos que, no dia a dia, o trabalho nas agências vai muito além da criação: envolve organização, prazos, feedbacks, revisões e entregas. Um fluxo intenso, cheio de talento, mas também de tarefas repetitivas e processos que poderiam ser mais simples.</p>
+                    <p>Por isso o Creative Integration Suite (CreatIS) — uma plataforma pública que nasce com um propósito claro: automatizar o que é burocrático para liberar tempo para o que realmente importa — a criatividade.</p>
+                    <p>Nós estudamos o mercado, ouvimos profissionais e observamos as dores das equipes. Queremos entender o que realmente faz diferença e desenvolver soluções que se adaptem a cada realidade — seja um criador independente, um pequeno estúdio ou uma grande agência.</p>
+                    <p>Acreditamos em tecnologia acessível, com qualidade, personalizável e modular, que pode ser moldada por quem usa.</p>
+                    <p>Acreditamos que boas ideias merecem boas ferramentas.</p>
+                    <p>E que a organização, arquitetura e automação de processos também são formas de arte.</p>
+                    <p>Queremos unir gestão, criatividade e tecnologia para construir um ecossistema digital mais humano, eficiente e colaborativo.</p>
+                </div>
+                <div id='signoff'>
+                    <p id='signature'>Assinado, equipe CreatIS:</p>
+                    <q>A integração promove a criatividade, a criatividade toca as pessoas, e as pessoas movem o mundo</q>
+                </div>
+            </div>
+        </div>
+        <div class="index-main-section call-to-action">
+            <div id='call-to-action-content'>
+                <h1 class='bigFont'>Teste agora mesmo:</h1>
+                <ul>
+                    <li class='bigFont'>Integrações com Whatsapp, Asana e Meta Business Suite;</li>
+                    <li class='bigFont'>Múltiplos usuários em diferentes projetos.</li>
+                </ul>
+                <p class='bigFont'>De forma totalmente gratuita!</p>
+                <p class='bigFont'>Expanda apenas quando a demanda surgir, e corte custos.</p>
+                <div id="cta-button" class='element-with-drop-shadow'>
+                    <a href="signup.html" class='bigFont'>Evolua sua jornada criativa já!</a>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        Tchau!
+        <div class="footer-notice">
+            <p id='notice-1' class='element-with-drop-shadow'>Creative Integration Suite e CreatIS sobre licença MIT. Idealizado por Vini Soares e Bia Moura.</p>
+            <p id='notice-2' class='element-with-drop-shadow'>Contato ou Suporte: <a href="mailto:viniciussoaresti@gmail.com">viniciussoaresti@gmail.com</a></p>
+        </div>
+        <a href='index.html'><img id='creatis-logo-right' src="img/creatis/logo.png" alt="Logo do Creative Integration Suite"></a>
     </footer>
 </body>
 </html>

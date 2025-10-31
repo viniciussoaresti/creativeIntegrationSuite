@@ -1,0 +1,220 @@
+.login-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/creatis/interconnections.png") center/cover no-repeat;
+  position: relative;
+}
+
+.login-container {
+  background: linear-gradient(180deg, #6a1b9a 0%, #4a0072 100%);
+  border-radius: 15px;
+  padding: 20px 35px;
+  color: #fff;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.login-container h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.login-container label {
+  font-size: 16px;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  text-align: left;
+  font-weight: normal;
+  color: white;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #45e4db;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.95);
+  margin-bottom: 5px;
+}
+
+.password-wrapper {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: #666;
+}
+
+.form-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px 0;
+  padding: 0 5px;
+}
+
+.link {
+  color: #45e4db;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.button-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.login-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #a566be, #703a86);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-btn:hover,
+.google-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  min-height: 44px;
+  flex: 1;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #a566be, #703a86);
+  color: white;
+}
+
+.btn-secondary {
+  background: linear-gradient(to right, #a566be, #703a86);
+  color: white;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* --------------- */
+
+.form-row--basic {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 6px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.form-row--basic label {
+  width: 100px;
+  font-weight: 600;
+  color: white;
+  flex-shrink: 0;
+}
+
+.form-row--basic input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #45e4db;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  width: 100%;
+}
+
+/* --------------- */
+
+select {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+  width: 100%;
+}
+
+/* --------------- */
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-row label {
+  width: 100px;
+  text-align: right;
+  font-weight: 600;
+  color: white;
+  flex-shrink: 0;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #45e4db;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #333;
+}
+
+.form-row.cpf input,
+.form-row.email input {
+  flex: 2;
+}
