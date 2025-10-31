@@ -24,9 +24,9 @@ jobs:
   deploy-development:
     runs-on: ubuntu-latest
     environment:
-      name: dev-integration
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}    
-    if: ${{ github.event_name == 'pull_request' }}
+    if: ${{ github.event_name == 'push' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
