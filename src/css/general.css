@@ -19,6 +19,16 @@
   font-size: 12px;
 }
 
+#notice {
+  text-decoration: solid underline;
+  color: white;
+  background-color: red;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -75,4 +85,26 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#notice-1 {
+  font-size: 22px;
+}
+
+#notice-2 {
+  font-size: 18px;
+}
+
+#notice-2 a {
+  font-family: "Roboto Flex", "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+#creatis-logo-right {
+  position: absolute;
+  top: 50%;
+  right: 2.8vw;
+  transform: translateY(-50%) scale(1.6);
+  height: 100%;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.75));
 }

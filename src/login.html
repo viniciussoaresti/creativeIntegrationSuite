@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login</title>
+  <title>CreatIS - Login 🗃️</title>
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/general2.css">
   <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+  <p id='disclaimer'>DISCLAIMER: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL AND AS A TECHNICAL SKILLS IMPROVEMENT PROJECT. This is NOT directly related to companies or brands mentioned on the page, neither is the creator of this page affiliated with them in any way. All credits due to the owners.</p>
+  <p id='notice'>This is an example page. If there are any inputs for personal information, do NOT insert your real personal ones.</p>
   <header>
     <a href="index.html">
       <img id="creatis-logo" src="img/creatis/logo.png" alt="Logo do Creative Integration Suite" />
@@ -36,7 +38,7 @@
 
         <div class="form-links">
           <a href="#" class="link">Esqueci a senha</a>
-          <a href="cadastro.html" class="link">Cadastro</a>
+          <a href="signup.html" class="link">Cadastro</a>
         </div>
 
         <div class="button-area">
@@ -48,7 +50,7 @@
             <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.574l6.19,4.819C42.022,35.219,44,30.021,44,24C44,22.659,43.862,21.35,43.611,20.083z"/>
             </svg>
         </button>
-          <button type="submit" class="login-btn">Login</button>
+          <button type="submit" class="login-btn"><a href="dashboard.html">Login</a></button>
         </div>
       </form>
     </div>
@@ -60,16 +62,5 @@
       <p class="contact">Contato ou Suporte: <a href="mailto:viniciussoaresti@gmail.com">viniciussoaresti@gmail.com</a></p>
     </div>
   </footer>
-
-  <script>
-    // Mostrar/ocultar senha
-    const toggle = document.getElementById("togglePassword");
-    const password = document.getElementById("password");
-    
-    toggle.addEventListener("click", () => {
-      const type = password.getAttribute("type") === "password" ? "text" : "password";
-      password.setAttribute("type", type);
-    });
-  </script>
 </body>
 </html>
