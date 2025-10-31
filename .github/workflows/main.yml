@@ -47,7 +47,7 @@ jobs:
     environment:
       name: dev-integration
       url: ${{ steps.deployment.outputs.page_url }}
-    if: ${{ github.event_name == 'pull_request' }}
+    if:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -55,8 +55,9 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build CreatIS
         run: |
+          echo ${{ github.event_name == 'pull_request' }}
           mkdir -p ./_site/
-          cp -r ./src/* ./_site/ echo steps.deployment.outputs.page_url
+          cp -r ./src/* ./_site/
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
       - name: Deploy to GitHub Pages
