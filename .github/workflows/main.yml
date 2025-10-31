@@ -56,7 +56,7 @@ jobs:
       - name: Build CreatIS
         run: |
           mkdir -p ./_site/
-          cp -r ./src/* ./_site/
+          cp -r ./src/* ./_site/ echo steps.deployment.outputs.page_url
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
       - name: Deploy to GitHub Pages
