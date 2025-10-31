@@ -55,7 +55,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build CreatIS
         run: |
-          echo ${{ github.event_name == 'pull_request' }}
+          echo ${{ steps.deployment.outputs.page_url }}
           mkdir -p ./_site/
           cp -r ./src/* ./_site/
       - name: Upload Artifact
